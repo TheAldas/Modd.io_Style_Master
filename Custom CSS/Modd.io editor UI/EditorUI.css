@@ -1,0 +1,254 @@
+div#loading-container {
+    background-color: #263238;
+}
+
+input.bootstrap-typeahead-input-main {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.white-background, .gameBackground, .modal-content {
+    background-color: #263238;
+}
+
+.white-background {
+    box-shadow: #455A64 0px 0px 0px 1px;
+}
+
+body {
+    color: #8a96a1;
+}
+
+.editorBackground {
+    background-color: transparent;
+}
+
+.form-control {
+    color: #CFD8DC;
+    background-color: #37474F;
+}
+
+.form-control:disabled {
+    background-color: #78909C;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #455A64;
+}
+
+.form-control:focus {
+    background-color: #455A64;
+    box-shadow: #455A64;
+    color: #CFD8DC;
+}
+
+.bootstrap-tokenizer .token {
+    background-color: #263238;
+    color: #B0BEC5;
+    font-weight: bold;
+}
+
+.bootstrap-tokenizer .token:hover {
+    background-color: #212121;
+}
+
+.bootstrap-typeahead-input-main {
+    color: #90A4AE;
+}
+
+.rowContents {
+    background-color: #141414;
+    border-color: #424242;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.rowContents:hover {
+    background-color: #212121;
+}
+
+.nav.nav-pills.white-pills a.nav-link.active {
+    background-color: #546E7A;
+}
+
+.list-group-item.active {
+    color: #CFD8DC;
+    background-color: #37474F;
+    border-color: #455A64;
+}
+
+.list-group-item:hover, .tooltip-inner {
+    background-color: #546E7A;
+    color: #ECEFF1;
+}
+
+.list-group-item {
+    background-color: #455A64;
+    color: #CFD8DC;
+}
+
+.flex-shrink-1.pl-0.col-3, .table, .table.typesTable td, .table.typesTable th, th, .form-control, .react-bs-table-bordered, .table-bordered td, .table-bordered th {
+    border-color: #78909C ;
+}
+
+.containerForNav {
+    box-shadow: #78909C 0px 0px 0px 1px;
+}
+
+.tab-content {
+    box-shadow: #78909C 0px 0px 0px 1px;
+}
+
+.btn-primary, .page-item.active .page-link {
+    border-color: #37474F;
+    background-color: #303F9F;
+}
+
+.btn-primary:hover, .page-item.active .page-link:hover {
+    border-color: #37474F;
+    background-color: #283593;
+}
+
+.btn-secondary {
+    border-color: #37474F;
+    background-color: #455A64;
+}
+
+.btn-secondary:hover {
+    border-color: #37474F;
+    background-color: #37474F;
+}
+
+button.btn-danger {
+    background-color: #D84315;
+}
+
+button.btn-danger:hover, button.btn-danger:focus {
+    background-color: #BF360C;
+}
+
+.nav-tabs .nav-link.active:hover {
+    border-color: #78909C #78909C #78909C;
+    color: #8a96a1;
+}
+
+.nav-tabs .nav-link.active {
+    color: #8a96a1;
+    background-color: #455A64;
+    border-color: #78909C #78909C #78909C ;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #78909C;
+    border-color: #78909C #78909C #78909C;
+}
+
+ol.breadcrumb {
+    background-color: #37474F;
+    color: #ECEFF1;
+}
+
+div a.link, div a.link span, span.rowTitle span {
+    color: #1976D2;
+}
+
+.card {
+    background-color: #37474F;
+}
+
+.dropdown-menu, button.dropdown-item, a.dropdown-item {
+    background-color: #37474F;
+    color: #B0BEC5;
+}
+
+.dropdown-menu li a:hover, button.dropdown-item:hover, a.dropdown-item:hover {
+    background-color: #263238;
+}
+
+.bootstrap-typeahead-highlight {
+    background-color: #455A64;
+}
+
+.dropdown-divider {
+    border: 1px solid #263238;
+}
+
+.modal-header, .modal-footer {
+    border-color: #455A64;
+}
+
+.discord-button {
+    background-color: #3949AB;
+    border-color: #3949AB;
+}
+
+.discord-button:hover, .discord-button:focus {
+    background-color: #303F9F;
+    border-color: #303F9F;
+}
+
+button.btn.btn-outline-primary.btn-sm:hover, button.btn.btn-outline-primary.btn-sm:focus {
+    border-color: #3949AB;
+    background-color: #303F9F;
+}
+
+.btn-warning {
+    background-color: #FFA000;
+    border-color: #FFA000;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+    background-color: #FF8F00;
+    border-color: #FF8F00;
+}
+
+.dropdown .btn-info, button.btn.btn-info {
+    background-color: #0097A7;
+    border-color: #0097A7;
+}
+
+.dropdown .btn-info:hover, .dropdown .btn-info:focus, button.btn.btn-info:hover, button.btn.btn-info:focus {
+    background-color: #006064;
+    border-color: #006064;
+}
+
+.btn-success {
+    background-color: #388E3C;
+    border-color: #388E3C;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color: #2E7D32;
+    border-color: #2E7D32;
+}
+
+div#editor-div {
+    background-color: rgba(54, 70, 78, 0.8);
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
