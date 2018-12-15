@@ -1,16 +1,31 @@
-div#loading-container,
-.white-background,
-.gameBackground,
-.modal-content,
-.dropdown-menu li a:hover,
-button.dropdown-item:hover,
-a.dropdown-item:hover {
+div#loading-container, .white-background, .gameBackground, .modal-content, .dropdown-menu li a:hover, button.dropdown-item:hover, a.dropdown-item:hover {
     background-color: #263238;
+}
+
+.bg-light, .bg-white {
+    background-color: #455A64;
+}
+
+.text-dark, .text-light, .container-fluid.bg-white, h5,div small {
+    color: #B0BEC5;
 }
 
 input.bootstrap-typeahead-input-main {
     background-color: transparent;
     border-color: transparent;
+}
+
+a.anchor-disable div.row {
+    color: #546E7A;
+    border-color: #546E7A;
+}
+
+div.row:hover{
+    background-color: #455A64;
+}
+
+.row, .table-cell,.col-sm-9.inner-div-container.border-right {
+    border-color: #546E7A;
 }
 
 .editorBackground {
@@ -23,9 +38,8 @@ input.bootstrap-typeahead-input-main {
 
 body {
     color: #8a96a1;
+    background-color: #263238;
 }
-
-
 
 .form-control {
     color: #CFD8DC;
@@ -93,15 +107,7 @@ input {
     color: #CFD8DC;
 }
 
-.flex-shrink-1.pl-0.col-3,
-.table,
-.table.typesTable td,
-.table.typesTable th,
-th,
-.form-control,
-.react-bs-table-bordered,
-.table-bordered td,
-.table-bordered th {
+.flex-shrink-1.pl-0.col-3, .table, .table.typesTable td, .table.typesTable th, th, .form-control, .react-bs-table-bordered, .table-bordered td, .table-bordered th {
     border-color: #78909C ;
 }
 
@@ -183,19 +189,27 @@ div a.link, div a.link span, span.rowTitle span {
     border-color: #455A64;
 }
 
-.discord-button {
+.discord-button, a.btn.mb-2 {
     background-color: #3949AB;
     border-color: #3949AB;
 }
 
-.discord-button:hover, .discord-button:focus {
+a.btn.btn-outline-primary.mb-2 {
+}
+
+.discord-button:hover, .discord-button:focus, a.btn.mb-2:hover, a.btn.mb-2:focus {
     background-color: #303F9F;
     border-color: #303F9F;
 }
 
-button.btn.btn-outline-primary.btn-sm:hover, button.btn.btn-outline-primary.btn-sm:focus {
+button.btn.btn-outline-primary.btn-sm:hover, button.btn.btn-outline-primary.btn-sm:focus, {
     border-color: #3949AB;
     background-color: #303F9F;
+}
+
+.btn.btn-outline-primary.mb-2 {
+    background-color: transparent
+;
 }
 
 .btn-warning {
@@ -232,24 +246,77 @@ div#editor-div {
     background-color: rgba(54, 70, 78, 0.8);
 }
 
+.text-white {
+    color: #90A4AE;
+}
 
-/* CSS for scrollbar. Works on GOOGLE CHROME and SAFARI */
+.homepage-theme {
+    background: #263238;
+}
+
+/* CSS for scrollbar. Works on GOOGLE CHROME, Mozilla Firefox and  SAFARI */
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+/* SCROLLBAR END */
+
+/* GAME UI   */
+
+/* Inventory */
+
+.btn-light:not(:disabled):not(.disabled).active {
+    background-color: #455A64;
+}
+
+.btn-light:not(:disabled):not(.disabled).active:hover {
+    background-color: #263238;
+}
+
+.btn-light {
+    border-color: #37474F;
+    background-color: #546E7A;
+}
+
+.btn-light:hover {
+    background-color: #263238;
+}
+
+.popover-body {
+    background-color: #455A64;
+    border: none;
+}
+
+/* Bars */
+
+.progress {
+    background-color: #546E7A;
+}
+
+.label {
+    color: #263238;
+}
+
+/* Game Part End */
+
