@@ -20,12 +20,13 @@ a.anchor-disable div.row {
     border-color: #546E7A;
 }
 
-div.row:hover{
+a.anchor-disable div.row:hover{
     background-color: #455A64;
 }
 
 .row, .table-cell,.col-sm-9.inner-div-container.border-right {
     border-color: #546E7A;
+    color: #212121;
 }
 
 .editorBackground {
