@@ -1,4 +1,10 @@
-div#loading-container {
+div#loading-container,
+.white-background,
+.gameBackground,
+.modal-content,
+.dropdown-menu li a:hover,
+button.dropdown-item:hover,
+a.dropdown-item:hover {
     background-color: #263238;
 }
 
@@ -7,8 +13,8 @@ input.bootstrap-typeahead-input-main {
     border-color: transparent;
 }
 
-.white-background, .gameBackground, .modal-content {
-    background-color: #263238;
+.editorBackground {
+    background-color: transparent;
 }
 
 .white-background {
@@ -19,9 +25,7 @@ body {
     color: #8a96a1;
 }
 
-.editorBackground {
-    background-color: transparent;
-}
+
 
 .form-control {
     color: #CFD8DC;
@@ -89,15 +93,19 @@ input {
     color: #CFD8DC;
 }
 
-.flex-shrink-1.pl-0.col-3, .table, .table.typesTable td, .table.typesTable th, th, .form-control, .react-bs-table-bordered, .table-bordered td, .table-bordered th {
+.flex-shrink-1.pl-0.col-3,
+.table,
+.table.typesTable td,
+.table.typesTable th,
+th,
+.form-control,
+.react-bs-table-bordered,
+.table-bordered td,
+.table-bordered th {
     border-color: #78909C ;
 }
 
-.containerForNav {
-    box-shadow: #78909C 0px 0px 0px 1px;
-}
-
-.tab-content {
+.containerForNav, .tab-content {
     box-shadow: #78909C 0px 0px 0px 1px;
 }
 
@@ -163,10 +171,6 @@ div a.link, div a.link span, span.rowTitle span {
     color: #B0BEC5;
 }
 
-.dropdown-menu li a:hover, button.dropdown-item:hover, a.dropdown-item:hover {
-    background-color: #263238;
-}
-
 .bootstrap-typeahead-highlight {
     background-color: #455A64;
 }
@@ -228,26 +232,24 @@ div#editor-div {
     background-color: rgba(54, 70, 78, 0.8);
 }
 
-/* width */
 
+/* CSS for scrollbar. Works on GOOGLE CHROME and SAFARI */
+/* width */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 /* Track */
-
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
 /* Handle */
-
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
 /* Handle on hover */
-
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
