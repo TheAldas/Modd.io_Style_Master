@@ -1,4 +1,4 @@
-[**HTML code for Discord iFrame**](***how-to-use-html-documents?***)
+[**HTML code for Discord iFrame**](***modd.io-style-master***)
 
 # Modd.io Style Master
 Custom CSS codes for your modd.io games UI and Modd.io Editor UI.
