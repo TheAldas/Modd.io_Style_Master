@@ -9,7 +9,7 @@ Feel free to use all the codes in this repository. I would be grateful if you yo
 [**HTML code for Discord iFrame**](https://github.com/TheAldas/Modd.io_Style_Master/blob/master/HTML%20for%20games%20-%20codes%20to%20add%20button%20and%20other%20things/HTML%20for%20iFrames/HTML%20for%20discord%20iFrame.html)
 
 ***What extension can I use to use CSS for editor?***
-It, depends on what browser are you using. Currently custom CSS works 100% only on Google Chrome, but you can also use  these CSS codes in other browsers. Here's short list of extensions:
+It depends on what browser are you using. Currently custom CSS works 100% only on Google Chrome, but you can also use  these CSS codes in other browsers. Here's short list of extensions:
 
  - Google Chrome: 
     - [StyleBot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) 
@@ -21,3 +21,5 @@ It, depends on what browser are you using. Currently custom CSS works 100% only 
   - [Custom Style Script](https://addons.mozilla.org/en-US/firefox/addon/custom-style-script/)
   - [Stylish](https://addons.mozilla.org/en-US/firefox/addon/stylish/)
  
+***How to use HTML documents?***
+Copy HTML text and paste it to your game's Description (Menu Div). **Note: Don't forget to read comments**
