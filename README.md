@@ -1,5 +1,3 @@
-[**HTML code for Discord iFrame**](***modd.io-style-master***)
-
 # Modd.io Style Master
 Custom CSS codes for your modd.io games UI and Modd.io Editor UI.
 Feel free to use all the codes in this repository. I would be grateful if you you put link to this repository. Have fun!
