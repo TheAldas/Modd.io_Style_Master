@@ -1,0 +1,13 @@
+<img id="Discord_img" src="^&**^^)(!" width="0" onerror="var discordFrame = document.createElement(&#x22;iframe&#x22;);
+var iframeParentElement = document.getElementById(&#x22;menu-column-right&#x22;);
+var ServerId = &#x22;ServerId&#x22;; //Change ServerId with your discord server's Id.
+discordFrame.id = &#x22;DiscordFrameCustom&#x22;;
+var srcString = &#x22;https://discordapp.com/widget?id=&#x22; + ServerId + &#x22;&#x26;theme=dark&#x22;;
+discordFrame.setAttribute(&#x27;src&#x27;, srcString);
+discordFrame.setAttribute(&#x27;allowtransparency&#x27;, &#x22;true&#x22;);
+discordFrame.setAttribute(&#x27;frameborder&#x27;, &#x22;0&#x22;);
+discordFrame.width = &#x27;100%&#x27;;
+discordFrame.height = &#x27;100%&#x27;;
+iframeParentElement.insertBefore(discordFrame, iframeParentElement.getElementsByClassName(&#x22;white-bg&#x22;)[0]);
+document.getElementById(&#x22;Discord_img&#x22;).remove();" >
+  <style>#DiscordFrameCustom{max-height: 250px;}</style>
