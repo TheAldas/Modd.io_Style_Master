@@ -262,6 +262,12 @@ div#editor-div {
     background: #263238;
 }
 
+span.rowTitle span .error-text,
+div a.link span.error-text {
+    color: red!important;
+}
+
+
 /* Additional CSS for modd.io/login?redirect=/  */
 .login-card{
     box-shadow: 0 0 40px 17px #37474F;
