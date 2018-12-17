@@ -155,7 +155,8 @@ button.btn-danger:hover, button.btn-danger:focus {
     border-color: #78909C #78909C #78909C ;
 }
 
-.nav-tabs .nav-link:hover {
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
     color: #78909C;
     border-color: #78909C #78909C #78909C;
 }
