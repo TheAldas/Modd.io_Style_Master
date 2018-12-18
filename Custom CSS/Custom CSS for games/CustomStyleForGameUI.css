@@ -1,0 +1,116 @@
+/* !!!! Put this css file in <style> </style> element, if you don't have <style> element in Menu Div (Description) add it (<style></style>) !!!! */
+
+/* Sets "Default" font color */
+body{
+  color : #CFD8DC;
+}
+
+/****Main Menu UI****/
+.white-bg, .bg-white, #featured-youtuber{
+  background-color:#263238!important;
+}
+
+/* Applies to Server Dropdown List, message input field and input modal. */
+.form-control{
+  background-color:#37474F !important;
+  color:#CFD8DC !important;
+}
+
+/**** Game UI****/
+
+/* Applies to message box, player variables box and top UI text (Changes backgrround color) */
+.dark-bg{
+  background-color:#263238!important;
+}
+
+/* Applies to modal and shop background */
+.modal-content{
+  background-color:#37474F !important;
+}
+
+/*** Additional CSS for Shop UI ***/
+
+/** Applies to shop tab **/
+
+/*Selected shop tab (Default)*/
+.nav-tabs .nav-link.active{
+  background-color:#455A64 !important;
+  border-color: #78909C #78909C #78909C  !important;
+  color: #8a96a1 !important;
+}
+/*Deselected shop tab (Mouse is on button)*/
+.nav-tabs .nav-link:hover{
+  border-color: #78909C #78909C #78909C  !important;
+}
+/*Deslected shop tab (Default)*/
+.nav-tabs .nav-link{
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+/* Changes Shop elements borders color */
+.row, .modal-header{
+  border-color: #455A64 !important;
+}
+/**End**/
+
+
+/* #Inventory# */
+
+/*Deselected button (Deafult)*/ 
+.btn-light:not(:disabled):not(.disabled).active {
+    background-color: #455A64;
+  border-color: #37474F;
+}
+/*Deselected button (Mouse is on button)*/
+.btn-light:not(:disabled):not(.disabled).active:hover {
+    background-color: #263238;
+  border-color: #37474F;
+}
+/*Selected item (Default)*/
+.btn-light {
+    border-color: #37474F;
+    background-color: #546E7A;
+}
+/*Selected item (Mouse is on button)*/
+.btn-light:hover {
+    background-color: #263238;
+  border-color: #37474F;
+}
+/* #CSS for inventory end# */
+
+
+/* Some CSS for popovers */
+
+/* Popover part under title(Default) */
+.popover-body, .popover {
+    background-color: #455A64;
+}
+/* Popover title(Default) */
+.popover-header{
+  background-color: #455A64;
+}
+/* Popover arrow (Default) */
+.arrow::after, .popover-header::before{
+    border-bottom-color: #455A64;
+}
+/* Popover arrow (Default) */
+.bs-popover-top .arrow::after{
+  border-top-color: #455A64;
+}
+/* CSS for popovers end */
+
+
+/* Bars (Under Inventory)*/
+
+/*Applies to bar background*/
+.progress {
+    background-color: #546E7A;
+}
+/*Changes bar font color*/
+.label {
+    color: #263238;
+}
+
+
+/* Game Part End */
