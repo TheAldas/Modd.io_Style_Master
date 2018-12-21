@@ -263,9 +263,12 @@ div#editor-div {
     background: #263238;
 }
 
-span.rowTitle span .error-text,
-div a.link span.error-text {
-    color: red!important;
+span.rowTitle span .error-text, div a.link span.error-text {
+    color: red ;
+}
+
+span.rowTitle span.error-text, span.error-text span, div a.link span.error-text span {
+    color: red;
 }
 
 
