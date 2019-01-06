@@ -1,4 +1,4 @@
-div#loading-container,div#featured-youtuber,.popover, .white-bg, .jumbotron, .white-background, .gameBackground, .modal-content, .dropdown-menu li a:hover, button.dropdown-item:hover, a.dropdown-item:hover {
+div#main, div#loading-container,div#featured-youtuber,.popover, .white-bg, .jumbotron, .white-background, .gameBackground, .modal-content, .dropdown-menu li a:hover, button.dropdown-item:hover, a.dropdown-item:hover {
     background-color: #263238;
 }
 
@@ -350,4 +350,3 @@ span.rowTitle span.error-text, span.error-text span, div a.link span.error-text 
 
 
 /* Game Part End */
-
