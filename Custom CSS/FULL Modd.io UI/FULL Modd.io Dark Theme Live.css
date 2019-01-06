@@ -89,6 +89,10 @@
     background-color: #37474F;
 }
 
+.card.game-card-home.game-card-boxshadow.cursor-pointer.itemscontainer:hover {
+    animation: fade 0.3s forwards;
+}
+
 .containerForNav, .tab-content {
     box-shadow: #78909C 0px 0px 0px 1px;
 }
@@ -268,6 +272,35 @@ a.anchor-disable div.row:hover {
     color: #212121;
 }
 
+@keyframes fade {
+  from {
+    
+    -webkit-opacity: 1;
+    
+    -webkit-opacity: 1;
+    
+    -webkit-opacity: 1;
+    
+    -webkit-opacity: 1;
+    -webkit-opacity: 1;
+    opacity: 1;
+  }
+  to {
+    
+    -webkit-opacity: 0.85;
+    
+    -webkit-opacity: 0.85;
+    
+    -webkit-opacity: 0.85;
+    
+    -webkit-opacity: 0.85;
+    -webkit-opacity: 0.85;
+    opacity: 0.85;
+  }
+}
+
+
+
 body {
     background-color: #263238;
     color: #8a96a1;
@@ -290,6 +323,14 @@ button.btn.btn-outline-primary.btn-sm:hover, button.btn.btn-outline-primary.btn-
 
 /* CSS for scrollbar. Works on GOOGLE CHROME, Mozilla Firefox and  SAFARI */
 
+/* Inventory */
+
+/* Some CSS for popovers */
+
+/*Animations for more alive feeling*/
+
+/*End of animations*/
+
 /* Bars */
 
 /* Game Part End */
@@ -305,10 +346,6 @@ button.btn.btn-outline-primary.btn-sm:hover, button.btn.btn-outline-primary.btn-
 /* SCROLLBAR END */
 
 /* GAME UI   */
-
-/* Inventory */
-
-/* Some CSS for popovers */
 
 div a.link, div a.link span, span.rowTitle span {
     color: #1976D2;
@@ -342,38 +379,11 @@ span.rowTitle span .error-text, div a.link span.error-text {
     color: red;
 }
 
-
 span.rowTitle span.error-text, span.error-text span, div a.link span.error-text span {
     color: red;
 }
 
-/*Animations for more alive feeling*/
-
-.card.game-card-home.game-card-boxshadow.cursor-pointer.itemscontainer:hover {
-    animation: fade 0.3s forwards;
+div#main {
+    background-color: #263238;
 }
-
-
-@keyframes fade {
-  from {
-    
-    -webkit-opacity: 1;
-    
-    -webkit-opacity: 1;
-    -webkit-opacity: 1;
-    opacity: 1;
-  }
-  to {
-    
-    -webkit-opacity: 0.85;
-    
-    -webkit-opacity: 0.85;
-    -webkit-opacity: 0.85;
-    opacity: 0.85;
-  }
-}
-
-
-
-/*End of animations*/
 
