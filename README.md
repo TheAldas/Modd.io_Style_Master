@@ -11,8 +11,8 @@ Feel free to use all the codes in this repository. I would be grateful if you yo
 It depends on what browser are you using. Currently custom CSS works 100% only on Google Chrome, but you can also use  these CSS codes in other browsers. Here's short list of extensions:
 
  - Google Chrome: 
-    - [StyleBot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) 
     - [User CSS](https://chrome.google.com/webstore/detail/user-css/okpjlejfhacmgjkmknjhadmkdbcldfcb)
+    - [StyleBot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) 
    - [Stylish](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe)
    
 - Mozilla Firefox
